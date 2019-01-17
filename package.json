@@ -1,12 +1,13 @@
 {
-  "name": "node-js-sample",
-  "version": "0.2.0",
-  "description": "A sample Node.js app using Express 4",
-  "main": "index.js",
+  "name": "byui-acm",
+  "version": "0.1.0",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node app.js"
   },
   "dependencies": {
+    "ejs": "^2.6.1",
     "express": "^4.13.3"
   },
   "engines": {
@@ -16,14 +17,5 @@
     "type": "git",
     "url": "https://github.com/heroku/node-js-sample"
   },
-  "keywords": [
-    "node",
-    "heroku",
-    "express"
-  ],
-  "author": "Mark Pundsack",
-  "contributors": [
-    "Zeke Sikelianos <zeke@sikelianos.com> (http://zeke.sikelianos.com)"
-  ],
   "license": "MIT"
 }

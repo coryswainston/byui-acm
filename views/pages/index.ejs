@@ -1,0 +1,32 @@
+<%- include('../modules/header'); %>
+
+<main>
+  <div class="greeting">
+    <p id="welcome"></p>
+    <a href="/register">Sign Up</a>
+    <a href="/#">Join Poll</a>
+    <a href="/#">Elections</a>
+  </div>
+</main>
+<script src="https://unpkg.com/typewriter-effect/dist/core.js"></script>
+<script type="text/javascript">
+  var app = document.getElementById('welcome');
+
+  var typewriter = new Typewriter(app, {
+      loop: true
+  });
+
+  typewriter.typeString('Welcome to ACM.')
+      .pauseFor(5500)
+      .deleteAll()
+      .typeString('I made you this webste')
+      .pauseFor(250)
+      .deleteChars(3)
+      .typeString('site...')
+      .pauseFor(2500)
+      .deleteAll()
+      .typeString('Enjoy. (:')
+      .pauseFor(3000)
+      .start();
+</script>
+<%- include('../modules/footer'); %>
