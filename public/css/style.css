@@ -58,6 +58,7 @@ main {
   padding: 40px;
   color: darkblue;
   width: 200px;
+  margin: 5px;
 }
 
 .card-container {
