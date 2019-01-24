@@ -28,9 +28,20 @@ header {
   justify-content: center;
 }
 
+.social {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
 .logo img {
   width: 50px;
   padding: 6px;
+}
+
+.social img {
+  width: 30px;
+  padding: 20px 8px 0;
 }
 
 main {
