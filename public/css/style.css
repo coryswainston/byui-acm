@@ -7,6 +7,10 @@ body {
   font-family: Roboto;
 }
 
+h1 {
+  color: white;
+}
+
 header {
   background: #fafafa;
   padding: 10px;
@@ -49,8 +53,8 @@ main {
   background: var(--blue-gradient);
   min-height: 100vh;
   display: flex;
-  flex-flow: row wrap;
-  align-items: flex-start;
+  flex-flow: column wrap;
+  align-items: center;
   justify-content: center;
 }
 
@@ -61,6 +65,16 @@ main {
   width: 320px;
   max-width: 90%;
   color: darkblue;
+}
+
+.featured {
+  width: 100%;
+  box-shadow: -10px 10px 10px darkblue;
+  margin-top: 40px;
+}
+
+.featured-img {
+  width: 100%;
 }
 
 .officer-card {
@@ -75,7 +89,7 @@ main {
 .card-container {
   width: 100%;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: space-around;
 }
 
